@@ -16,7 +16,7 @@ int ft_atoi_base(const char *str, int str_base)
 	while (i >= 0)
 	{
 		j = 0;
-		while (j < 16)
+		while (j < str_base)
 		{
 			if (str[i] == base_lo[j] || str[i] == base_up[j])
 			{
